@@ -1,0 +1,126 @@
+
+.admin-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    
+  }
+  
+.nav-center-text{
+    display: flex;
+    align-items: flex-end;
+}
+.nav-center-text p{
+  color: white;
+  font-family: 'Manjari';
+  font-size: 30px;
+  margin-right: 120px;
+}
+  .ProfilePic{
+    display: flex;
+    align-items: center;
+  }
+  .dropdown-items{
+    padding: 1px 10px 1px 10px;
+    margin: 0;
+    background-color: #252525;
+  }
+  .dropdown-items a{
+    color: white;
+    text-decoration: none;
+  }
+  .dropdown-items a p{
+    font-family: 'Manjari';
+  }
+  .App-body-admin {
+    padding: 20px;
+    color: #495057;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    gap: 30px;
+    width: 97.8%;
+    height: 700px;
+  }
+  .div-container-admin{
+    width: 100em;
+    height: 100em;
+  }
+  .user-table{
+    display: flex;
+    justify-content: center;
+  }
+  .div-table{
+    background-color: #EAEAEA;
+  }
+  table{
+  width: 100%;
+  }
+
+  .table-header-row{
+    font-size: 20px;
+  }
+  .user-table tbody{
+    font-size: 15px;
+  }
+  .add-user-button{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+  }
+  .admin-button{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0;
+   }
+   .edit-delete-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+   }
+   .modal-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+   }
+   .form-tag{
+    width: 300px;
+   }
+
+   .form-tag input, label{
+    padding: 0;
+    margin: 0;
+   }
+   .modal-buttons{
+    display: flex;
+    margin-top: 20px;
+    gap: 10px;
+   }
+
+   .buttonheader-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items :center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+  .buttonheader-div button {
+    margin-top: 50px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+  }

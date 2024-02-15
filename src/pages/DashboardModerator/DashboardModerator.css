@@ -1,0 +1,193 @@
+.App-moderator {
+  text-align: center;
+}
+
+.App-logo-moderator {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header-moderator {
+  background-color: black;
+  min-height: 216px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px 0px;
+}
+
+.App-body-moderator {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #495057;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  gap: 30px;
+}
+
+.ProfilePic{
+  display: flex;
+  align-items: center;
+}
+.dropdown-items{
+  padding: 1px 10px 1px 10px;
+  margin: 0;
+  background-color: #252525;
+}
+.dropdown-items a{
+  color: white;
+  text-decoration: none;
+}
+.dropdown-items a p{
+  font-family: 'Manjari';
+}
+.buttonheader-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items :center;
+  gap: 50px;
+  margin-top: 40px;
+}
+.buttonheader-div button {
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.buttonheader-div button.selected {
+  background-color: white; 
+  color: black; 
+}
+.confirmation-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  min-width: 1400px;
+  min-height: 350px;
+  border-radius: 12px;
+}
+.confirmation-items{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #EAEAEA;
+  min-width: 1300px;
+  min-height: 250px;
+  border-radius: 12px;
+}
+.project-details-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  gap: 10px;
+}
+#projecttitle{
+  width: 720px;
+  height: 70px;
+  margin: 0;
+}
+#projectdescription{
+  width: 720px;
+  height: 70px;
+  margin: 0;
+}
+.date{
+  font-size: 20px;
+  text-align: left;
+  color: black;
+}
+.date-button-container{
+  display: flex;
+  flex-direction: column;
+}
+.approve-reject-buttons{
+  display: flex;
+  gap: 10px;
+}
+.approverejectbuttons{
+  background-color: black;
+  color: white;
+  border-radius: 2px;
+  width: 120px;
+  height: 50px;
+}
+.confirmation-items-comments{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #EAEAEA;
+  min-width: 1300px;
+  min-height: 250px;
+  border-radius: 12px;
+}
+/* .comment-date-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+#commentbox{
+  width: 900px;
+  height: 70px;
+  margin: 0;
+  border-radius: 12px;
+}
+.button-comments-container{
+display: flex;
+align-items: flex-end;
+height: 140px;
+gap: 10px;
+}
+.approverejectbuttons-comments{
+background-color: black;
+color: white;
+border-radius: 5px;
+width: 120px;
+height: 50px;
+}
+.dashboard-container {
+background-color: black;
+color: white;
+padding: 20px;
+}
+
+.project-card {
+border: 1px solid white;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+.buttons-container {
+margin-top: 10px;
+}
+
+button {
+margin-right: 10px;
+padding: 5px 10px;
+background-color: white;
+color: black;
+border: none;
+cursor: pointer;
+}
+
+button:hover {
+background-color: gray;
+color: white;
+}
+.PendingComments{
+margin-top: 10px;
+}
+.pendingcoms{
+background-color: black;
+color: white  ;
+font-size: 20px;
+}

@@ -1,0 +1,172 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: black;
+    min-height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative; /* Make sure the position is relative for absolute positioning within */
+  }
+  
+  .aboutus-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    display: flex;
+  }
+  .aboutus-container h1{
+   text-align: center;
+  }
+
+  .App-body h1{
+    font-size: 40px;
+    color:black;
+  }
+  
+  
+  .App-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+  .back-aboutuspage-button{
+    height: 40px;
+    width: 150px;
+    margin: 0 8px;  
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    margin-right: 100px;
+  }
+  .join-section-aboutus {
+    max-width: 1000px;
+    max-height: 1000px;
+    font-size: 25px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  .join-section-aboutus p{
+  margin-left: 1in;
+  color: black;
+  font-family: 'Poppins';
+  }
+  #center{
+    text-align: center;
+  }
+  .aboutus{
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 600;
+  }
+  
+.ourteam{
+  font-size: 50px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: 600;
+    padding-top: 1in;
+  }
+
+  .team{
+    margin: 2rem auto;
+    position: relative;
+    width: 60%;
+	height: 50vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .team-content{
+    width: 100%;
+    max-width: 1350px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    margin-top: 4rem;
+  }
+  .team-content img{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-bottom: 15px;
+  }
+  .center h1{
+    font-size: 50px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .box{
+    padding: 16px;
+    background: #ffffff;
+    border-radius: 15px;
+    transition: all .38s ease;
+  }
+  .box h3{
+    font-size: 23px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 8px;
+  }
+  .box h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000000;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+  }
+  .box:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+  }
+  
+  @media(max-width: 1240px){
+    .team{
+      width: 100%;
+      height: auto;
+      padding: 90px 2%;
+    }
+    .center h1{
+      font-size: 3.2rem;
+    }
+  }
+  .sign-in-aboutuspage-button,
+.sign-up-aboutuspage-button {
+  height: 40px;
+  width: 150px;
+  margin: 0 8px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.back-aboutuspage-button:hover,
+.sign-in-aboutuspage-button:hover,
+.sign-up-aboutuspage-button:hover
+{
+  background-color: white;
+  color: black;
+}

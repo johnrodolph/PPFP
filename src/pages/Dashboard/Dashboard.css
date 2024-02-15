@@ -1,0 +1,194 @@
+.App-dashboard {
+  text-align: center;
+}
+
+.App-logo-dashboard {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header-dashboard {
+  background-color: black;
+  min-height: 216px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px 0px;
+}
+
+.App-body-dashboard {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  text-align: left;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: calc(50% - 1%);
+}
+.form-group-search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  display: flex;
+  align-content: flex-end;
+}
+
+.ProfilePic{
+display: flex;
+flex-direction: row-reverse;
+}
+
+.dropdown-items{
+  padding: 1px 10px 1px 10px;
+  margin: 0;
+  background-color: #252525;
+}
+.dropdown-items a{
+  color: white;
+  text-decoration: none;
+}
+.dropdown-items a p{
+  font-family: 'Manjari';
+}
+#search-dashboard{
+  padding: 0;
+  margin: 0;
+  width: 607px;
+  height: 86px;
+  border-radius: 10px;
+}
+
+.form-group-projecttitle {
+  margin-bottom: 10px;
+  width: calc(50% - 1%);
+  
+  
+}
+#projecttitle{
+  border-radius: 14px;
+  height: 50px;
+  width: 720px;
+}
+
+.form-group-projectdescription {
+  
+  margin-bottom: 10px;
+  width: calc(50% - 1%);
+  border-radius: 10px;
+  
+}
+#projectdescription{
+  border-radius: 14px;
+  height: 50px;
+  width: 720px;
+}
+.form-group-placecode {
+  width: calc(50% - 1%);
+  border-radius: 10px;
+}
+#placecode{
+  border-radius: 14px;
+  height: 65px;
+  width: 720px;
+  margin-left: 1px;
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
+  color: black;
+  text-align: left;
+}
+
+input {
+  height: 50px;
+  width: 100%;
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.join-section-post {
+  width: 800px;
+  height: 250px;
+  font-size: 25px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 20px;
+  
+} 
+.form-group1-list {
+  width: 800px;
+  height: 250px;
+  font-size: 25px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 0px;
+}
+.form-group2-list {
+  width: 800px;
+  height: 250px;
+  font-size: 25px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.form-group3-list {
+  width: 800px;
+  height: 250px;
+  font-size: 25px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #000000;
+  border-radius: 14px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.form-container-list{
+  text-align: center;
+  border: 1px solid;
+  height: 1200px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center items horizontally */
+  margin: 0 auto; /* Center the container itself */
+}
+::placeholder{
+  font-size: 20px;
+  font-family: 'Manjari';
+  color: #000000;
+  font-weight: 900;
+}
