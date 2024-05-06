@@ -1,0 +1,36 @@
+.App-ViewProject {
+text-align: center;
+}
+
+.App-header-dashboard {
+background-color: black;
+min-height: 216px;
+display: flex;
+justify-content: space-between;
+padding: 0px 5px 0px;
+}
+
+.App-main-content {
+justify-content: center;
+align-items: center;
+padding: 20px; /* Adjust the padding as needed */
+}
+
+.project-details {
+justify-content: center;
+align-items: center;
+background-color: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+.project-code-box {
+justify-content: center;
+align-items: center;
+background-color: #f0f0f0;
+padding: 10px;
+border-radius: 5px;
+margin-top: 10px;
+}

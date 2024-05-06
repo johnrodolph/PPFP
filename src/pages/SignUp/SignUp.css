@@ -1,0 +1,120 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  .App-header {
+    background-color: black;
+    min-height: 216px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    position: relative; 
+  }
+  
+  .button-container {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 16px;
+    display: flex;
+    align-content: flex-end;
+  }
+  
+  
+  .sign-up-button {
+    height: 80px;
+    width: 50%;
+    margin: 0 8px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    margin-left: 286px;
+    border: 1px solid black;
+   
+  }
+  
+ 
+  .sign-up-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .App-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    color: #495057;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    width: calc(50% - 1%);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0px;
+    color: black;
+    text-align: left;
+  }
+  
+  input {
+    height: 90px;
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+.signup{
+    font-size: 100px;
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-weight: bold;
+  }
+  #firstName{
+    font-size: 25px;
+  }
+  #lastName{
+    font-size: 25px;
+  }
+  #email{
+    font-size: 25px;
+  }
+  #password{
+    font-size: 25px;
+  }
+  #confirmPassword{
+    font-size: 25px;
+  }
+  .already{
+    color: black;
+    margin-left: 900px;
+
+  }
+  .boxfortermsandalready{
+    height: 100px;
+    width:  2000px;
+  }
+ 

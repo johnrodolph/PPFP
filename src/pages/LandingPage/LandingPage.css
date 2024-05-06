@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative; /* Make sure the position is relative for absolute positioning within */
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  display: flex;
+}
+.App-body h1{
+  font-size: 40px;
+  color:black;
+}
+
+.sign-in-landingpage-button,
+.sign-up-landingpage-button {
+  height: 40px;
+  width: 150px;
+  margin: 0 8px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+}
+.contactus-button:hover,
+.aboutus-button:hover,
+.sign-in-landingpage-button:hover,
+.sign-up-landingpage-button:hover,
+.join-now-button:hover{
+  background-color: white;
+  color: black;
+}
+.join-now-button {
+  height: 50px;
+  width: 150px;
+  margin: 0 8px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  border-radius: 25px;
+  font-family: 'Poppins';
+  font-weight: 500;
+}
+
+.App-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+.aboutus-button{
+  height: 40px;
+  width: 150px;
+  margin: 0 8px;  
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-right: 100px;
+}
+.contactus-button{
+  height: 40px;
+  width: 150px;
+  margin: 0 8px;  
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  margin-right: 100px;
+}
+.join-section {
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  
+}
+
+.join-section h3{
+  margin-left: 5in;
+  font-size: 20px;
+  color: black;
+}
+.join-section p{
+margin-left: 5in;
+color: black;
+}
+.welcome{
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins';
+  font-weight: bold;
+}
+.unlock{
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  font-family: 'Poppins';
+  font-weight: 500;
+  margin-left:5in;
+}
+
+

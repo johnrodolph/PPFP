@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: black;
+  min-height: 216px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 16px;
+  display: flex;
+  align-content: flex-end;
+}
+
+.submit-button,
+.edit-button {
+  height: 60px;
+  width: 100px;
+  margin: 100px 10%;
+  margin-left: -10%;
+  font-size: 16px;
+  border-radius: 10px;
+}
+
+.submit-button {
+  background-color: #f53535;
+  color: rgb(255, 255, 255);
+  border: 1px solid white;
+}
+
+.submit-button:hover {
+  background-color: #f75151;
+}
+
+.edit-button {
+  background-color: rgb(224, 219, 219);
+  color: rgb(0, 0, 0);
+  border: 1px solid white;
+}
+
+.edit-button:hover {
+  background-color: white;
+  color: black;
+}
+
+.App-body {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #495057;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  width: calc(50% - 1%);
+}
+
+label {
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  color: black;
+  text-align: left;
+  margin-left: 3in;
+}
+
+input {
+  height: 60px;
+  width: 100%;
+  font-size: 24px;
+  border: 1px solid black;
+  padding: 5px;
+  box-sizing: border-box;
+  margin-left: 3in;
+}
+
+.myprofile {
+  font-size: 100px;
+  color: rgb(0, 0, 0);
+  font-family: 'Manjari';
+  font-weight: 100;
+}
