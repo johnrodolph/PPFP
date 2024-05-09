@@ -16,7 +16,7 @@ Navigate into the folder that was just cloned:(if you are already on that folder
 
 cd PPFP
 
-to run this:(make sure if you run this the PPFP-API is also running)
+do this in your terminal to run the program:(run the PPFP-API first before running this one)
 
 npm start
 
